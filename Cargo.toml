@@ -1,0 +1,7 @@
+[package]
+name = "kilo"
+version = "0.1.0"
+authors = ["Nathan Bouscal <nbouscal@gmail.com>"]
+
+[dependencies]
+libc = "0.2"
