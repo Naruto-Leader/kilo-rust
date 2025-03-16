@@ -74,7 +74,8 @@ impl Syntax {
                 Keyword::Two("usize"), Keyword::Two("isize"), Keyword::Two("str"),
                 Keyword::Two("bool"), Keyword::Two("char"), Keyword::Two("String"),
                 Keyword::Two("Option"), Keyword::Two("Vec"), Keyword::Two("Self"),
-
+                Keyword::Two("u8"), Keyword::Two("u16"), Keyword::Two("u32"),
+                Keyword::Two("i8"), Keyword::Two("i16"), Keyword::Two("i32"),
             ],
             singleline_comment_start: "//",
             multiline_comment_start: "/*",
