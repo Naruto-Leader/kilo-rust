@@ -72,7 +72,8 @@ impl Syntax {
                 Keyword::One("mut"), Keyword::One("self"),
 
                 Keyword::Two("usize"), Keyword::Two("isize"), Keyword::Two("str"),
-
+                Keyword::Two("bool"), Keyword::Two("char"), Keyword::Two("String"),
+                Keyword::Two("Option"), Keyword::Two("Vec"), Keyword::Two("Self"),
 
             ],
             singleline_comment_start: "//",
