@@ -68,6 +68,10 @@ impl Syntax {
                 Keyword::One("return"), Keyword::One("else"), Keyword::One("struct"),
                 Keyword::One("pub"), Keyword::One("const"), Keyword::One("static"),
                 Keyword::One("enum"), Keyword::One("impl"), Keyword::One("use"),
+                Keyword::One("fn"), Keyword::One("mod"), Keyword::One("let"),
+                Keyword::One("mut"), Keyword::One("self"),
+
+                Keyword::Two("usize"), Keyword::Two("isize"), Keyword::Two("str"),
 
 
             ],
