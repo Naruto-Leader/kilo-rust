@@ -68,14 +68,8 @@ impl Syntax {
                 Keyword::One("return"), Keyword::One("else"), Keyword::One("struct"),
                 Keyword::One("pub"), Keyword::One("const"), Keyword::One("static"),
                 Keyword::One("enum"), Keyword::One("impl"), Keyword::One("use"),
-                Keyword::One("fn"), Keyword::One("mod"), Keyword::One("let"),
-                Keyword::One("mut"), Keyword::One("self"),
 
-                Keyword::Two("usize"), Keyword::Two("isize"), Keyword::Two("str"),
-                Keyword::Two("bool"), Keyword::Two("char"), Keyword::Two("String"),
-                Keyword::Two("Option"), Keyword::Two("Vec"), Keyword::Two("Self"),
-                Keyword::Two("u8"), Keyword::Two("u16"), Keyword::Two("u32"),
-                Keyword::Two("i8"), Keyword::Two("i16"), Keyword::Two("i32"),
+
             ],
             singleline_comment_start: "//",
             multiline_comment_start: "/*",
